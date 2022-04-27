@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="download.png" alt="profile">
+
+        <div id="theme-toggler" class="fas fa-moon"></div>
+        <div class="title">Digikala</div>
+       
+        <form action="#" autocomplete="off">
+            <div class="field">
+                <span class="fa fa-user"></span>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+            </div>
+            <div class="field">
+                <span class="fa fa-lock"></span>
+                <input type="password"  name="password" id="password" placeholder="Password" required>
+            </div>
+            <button onclick="alert('😀دوست عزیز ورود شما با موفقیت انجام شد😀')"><a href="../index.html">Log In</a></button>
+            <div class="or">Or</div>
+            <div class="icon-button">
+                <span class="facebook"><i class="fab fa-facebook"><a href="https://www.facebook.com/">Facebook</a></i></span>
+                <span class="google"><i class="fab fa-google"><a href="https://www.google.com/">Google</a></i></span>
+            
+        </form>
+    </div>
+    <script>
+        let themeToggler = document.querySelector('#theme-toggler');
+        themeToggler.onclick = () => {
+        themeToggler.classList.toggle('fa-sun');
+        if(themeToggler.classList.contains('fa-sun')){
+            document.body.classList.add('active')
+        }
+        else{
+            document.body.classList.remove('active')
+        }  
+    }
+              
+    </script>
+</body>
+</html>

@@ -1,0 +1,159 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	direction: rtl;
+	background-color: white;
+}
+span a{
+	color: red;
+	font-weight: bold;
+	font-family: calibri;
+	font-size: 28px;
+	margin-right: 5px;
+}
+.search{
+	width: 45vw;
+	height: 5vh;
+	margin-top: 5px;
+	background-color: #BDB9B9;
+	border: none;
+	border-radius: 5px;
+}
+label{
+	font-size: 35px;
+	position:absolute;
+	left: 0;
+}
+button{
+	background-color: rgb(172, 23, 23);
+	
+	width: 10vw;
+	height: 35px;
+	position: absolute;
+	left: 0;
+	margin-left: 80px;
+	margin-top: 10px;
+	border-radius: 5px;
+	border: none;
+	font-family: b koodak;
+}
+button a{
+	color: whitesmoke;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+::placeholder{
+	color: black;
+	font-family:b koodak ;
+	font-weight: bold;
+	font-size: 15px;
+}
+hr{
+	border: none;
+}
+.header{
+	position: fixed;
+	background-color: mintcream;
+	height: 15vh;
+    width: 99vw;
+    box-shadow: 10px 5px 10px black;
+}
+.fothed a{
+	padding:12px;
+	font-family: sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+}
+.headp{
+	z-index: -1;
+	position: absolute;
+	margin-top: 19vh;
+	margin-right: 20px;
+	font-size: 17px;
+	font-weight: bold;
+	color: gray;
+	font-family: b koodak;
+	cursor: pointer;
+}
+.pic{
+	position: absolute;
+	z-index: -1;
+	margin-right: 17px;
+	position: absolute;
+	border: white solid;
+	background-color: white;
+	border-radius: 9px;
+	width: 25vw;
+	height: 70vh;
+	margin-top: 32vh;
+
+}
+.pic img{
+	margin-top: -4vh;
+	margin-right: 7vw;
+	width: 14vw;
+	height: 67vh;
+}
+.pic h3{
+	margin-right: 9px;
+	color: red;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: b koodak;
+}
+.titr{
+	position: absolute;
+	z-index: -1;
+	margin-right: 35vw;
+	margin-top: 10vw;
+	font-size: 17px;
+	font-weight: bold;
+	color:#287b92;
+	font-family: b koodak;
+	cursor: pointer;
+}
+.titr h1{
+	
+	color: black;
+	font-family: sans-serif;
+	font-size: 25.5px;
+	
+}
+.titr h3{
+	
+	color: gray;
+	font-size: 15px;
+	font-family: sans-serif;
+	cursor:text;
+}
+.titr h4{
+	position: absolute;
+	z-index: 1;
+	color: blue;
+	font-family: sans-serif;
+	font-size: 14px;
+	margin-right: -6vw;
+	margin-top: 6vh;
+}
+
+/* .footer{
+	margin-top: 80vh;
+	position: absolute;
+	border: 1px #ff4040 solid;
+	height: 20vh;
+	width: 99.80%;
+	background-color:#ff4040;
+	text-align: center;
+	font-family: b koodak;
+	margin-bottom: 1px;
+}
+.footer h2{
+	margin-top: 15px;
+}
+.footer img{
+	border-radius: 9px;
+} */
